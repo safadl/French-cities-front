@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+#search{
+  border-color:transparent;
+  width:"90%";
+  border-radius:10;
+  margin:10;
+  font-size:35;
+  background-color:'#f0fcff';
+  font-weight:'bold';
+  padding:15;
+  border:none;
+}
+#search::placeholder{
+  color:#dfe0e1
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.item {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+}
+.textItem{
+  font-size:20px !important;
+  padding-left:10px !important;
+  
+}
+.CitiesFound{
+  width:92%
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .item {
+    flex-direction: column;
+  }
+  .textItem{
+    font-size:12px !important;
+    padding-left:2px !important;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+  .CitiesFound{
+    width:85%
   }
+  
 }
