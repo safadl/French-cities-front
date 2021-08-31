@@ -1,29 +1,25 @@
-#search{
-  border-color:transparent;
-  width:"90%";
-  border-radius:10;
-  margin:10;
-  font-size:35;
-  background-color:'#f0fcff';
-  font-weight:'bold';
-  padding:15;
-  border:none;
+#search {
+  border-color: transparent;
+  width: "90%";
+  border-radius: 10;
+  margin: 10;
+  font-size: 35;
+  background-color: "#f0fcff";
+  font-weight: "bold";
+  padding: 15;
+  border: none;
 }
-#search::placeholder{
-  color:#dfe0e1
+#search::placeholder {
+  color: #dfe0e1;
 }
 
 .item {
   display: flex;
   flex-direction: row;
 }
-.textItem{
-  font-size:20px !important;
-  padding-left:10px !important;
-  
-}
-.CitiesFound{
-  width:92%
+.textItem {
+  font-size: 20px !important;
+  padding-left: 10px !important;
 }
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
@@ -31,13 +27,41 @@
   .item {
     flex-direction: column;
   }
-  .textItem{
-    font-size:12px !important;
-    padding-left:2px !important;
-
+  .textItem {
+    font-size: 12px !important;
+    padding-left: 2px !important;
   }
-  .CitiesFound{
-    width:85%
+  .CitiesFound {
+    width: 85%;
   }
-  
+}
+.subContainer {
+  background-color: #d2e5e9;
+  flex-direction: row;
+  display: flex;
+  margin: 30px;
+  border-radius: 10px;
+  padding: 15px;
+  height: 50px;
+}
+.searchTitle {
+  align-self: center;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+.input {
+  border-color: transparent;
+  width: 88%;
+  border-radius: 10px;
+  margin-left: 30px;
+  font-size: 20px;
+  background-color: #f0fcff;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.villeContainer {
+  flex-direction: row;
+  display: flex;
+  padding: 20px;
 }

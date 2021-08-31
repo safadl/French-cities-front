@@ -1,0 +1,57 @@
+.item {
+  justify-content: "space-between";
+  background-color: #5b6770;
+  letter-spacing: 1.5px;
+  width: "90%";
+  margin: 10px;
+}
+.textItem {
+  font-size: 20px !important;
+  padding-left: 10px !important;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+}
+.codePostal {
+  color: #818791;
+  align-self: center;
+  padding-right: 10px;
+}
+.villeSubContainer {
+  text-align: center;
+  background-color: #d2e5e9;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 50%;
+}
+.CitiesFound {
+  width: 92%;
+  background-color: #72cb79;
+  height: 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+.CitiesFoundText {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+.NoVilles {
+  background-color: #c47779;
+  height: 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+}
+
+.NoVillesText {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
